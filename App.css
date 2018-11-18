@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.person {
+  background: #eeeeee;
+  width: 17rem;
+  padding: 1rem;
+  margin: 2rem auto;
+  transition: all 0.3s linear;
+  border-radius: 0.3rem;
+  text-align: center;
+}
+.person img {
+  border-radius: 50%;
+  border: 0.1rem solid teal;
+}
+
+.person h4 {
+  text-transform: capitalize;
+  margin: 0.5rem 0;
+  letter-spacing: 0.15rem;
+  color: teal;
+}
+.person:hover {
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+}
